@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f2f2f0;
+}
+
+.caixa {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #c8c8c6;
+  width: 55vh;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.nomeCalculadora {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin: 10px;
+  color: black;
+}
+
+.calculadora {
+  margin: 11px;
+}
+
+.caixaResultado {
+  display: flex;
+  width: 48.5vh;
+  justify-content: flex-end;
+  height: 10vh;
+  margin-left: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.linhaResultado {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+.linha1,
+.linha2,
+.linha3,
+.linha4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-size: 18px;
+  border-radius: 3px;
+  width: 75px;
+  height: 60px;
+  cursor: pointer;
+}
+
+#resultado {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#resultado:hover {
+  background-color: #0069d9;
+}
